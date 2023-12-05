@@ -1,4 +1,4 @@
-import 'package:firstapp/First_Screen.dart';
+import 'package:firstapp/calculater.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstScreen(),
+      home: calculater(),
     );
   }
 }
